@@ -9,16 +9,8 @@ from uuid import uuid4
 
 
 def prepare_data(path):
-    """Prepares datos_prendas.csv to be fitted
-
-    :param path: path to datos_prendas.csv
-    :return: dense array from datos_prendas.csv
-    """
-    df = pd.read_csv(path)
-    df_dense = df.pivot_table(values="target", index="id_client", columns="id_clothes")
-    df_dense.fillna(0, inplace=True)
-
-    return df_dense.values
+    """ Implement as needed """
+    pass
 
 
 def fit_model(path, p, alpha, beta, n_iter):
