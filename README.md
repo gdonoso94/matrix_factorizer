@@ -28,3 +28,5 @@ It can be run using
 ##### app.py
 
 Simple API developed using fastAPI to run the inference for the model. It takes a user_id and returns the 30 most likable items for it.
+
+---
